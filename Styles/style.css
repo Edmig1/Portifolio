@@ -117,6 +117,71 @@ nav a:hover {
 
 .desc {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr ;
+    justify-items: center;
     place-items: center;
+}
+#sobre-mim{
+    margin: 20px;
+    text-align: center;
+}
+#pa{
+    color: white;
+    font-size: 1.4em;
+}
+.desc #sobre-mim{
+
+    max-width: 60%;
+}
+.desc img{
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.custom-shape-divider-bottom-1682174066 {
+    position: absolute;
+    bottom: ;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(deg);
+}
+
+.custom-shape-divider-bottom-1682174066 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 60px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1682174066 .shape-fill {
+    fill: #9141D0;
+}
+.hard{
+    display: flex;
+    margin: 80px;
+    margin-bottom: 40px;
+    justify-content: center;
+    font-size: 3em;
+}
+.svg{
+    width: 100px;
+}
+#svg-skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    place-items: center;
+    margin-bottom: 100px;
+}
+#svg-skills div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#svg-skills div:hover{
+    scale: 1.5;
+    font-weight: bold;
+    color: var(--cor-principal);
 }
