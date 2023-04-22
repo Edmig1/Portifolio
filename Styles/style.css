@@ -27,7 +27,7 @@ nav a {
     color: black;
     background-color: transparent;
     text-decoration: none;
-    margin: 0px 50px;
+    margin: 0px 40px;
     padding: 5px 15px;
     border: var(--cor-principal) solid 2px;
     border-radius: 10px 10px 10px 10px;
@@ -43,7 +43,7 @@ nav a:hover {
 
 .section-home {
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 2fr 1fr;
     height: calc(100vh - 60px);
 }
 
@@ -53,6 +53,9 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.home-direita img{
+    width: 100%;
 }
 
 #home-esquerda img {
@@ -133,13 +136,18 @@ nav a:hover {
 
     max-width: 60%;
 }
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .desc img{
     margin-top: 20px;
     border-radius: 50%;
+    width: 60%;
 }
 .custom-shape-divider-bottom-1682174066 {
     position: absolute;
-    bottom: ;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -180,8 +188,7 @@ nav a:hover {
     justify-content: center;
     align-items: center;
 }
+
 #svg-skills div:hover{
     scale: 1.5;
-    font-weight: bold;
-    color: var(--cor-principal);
 }
