@@ -1,0 +1,122 @@
+:root {
+    --cor-principal: #9141D0
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    transition: all 0.3s;
+}
+
+/* Header quebrando a onda no responsivo quando os As se juntam */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+}
+
+h1 {
+    margin-left: 20px;
+    color: var(--cor-principal);
+    font-size: 3em;
+}
+
+nav a {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    margin: 0px 50px;
+    padding: 5px 15px;
+    border: var(--cor-principal) solid 2px;
+    border-radius: 10px 10px 10px 10px;
+    font-weight: 600;
+
+}
+
+nav a:hover {
+    color: white;
+    background-color: var(--cor-principal);
+    padding: 8px;
+}
+
+.section-home {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    height: calc(100vh - 60px);
+}
+
+.home-direita,
+#home-esquerda {
+    height: calc(90vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-esquerda img {
+    height: 35px;
+    padding: 10px;
+}
+
+#home-esquerda div img:hover {
+    margin-bottom: -5px;
+    cursor: pointer;
+}
+
+.bem {
+    font-size: 3em;
+}
+
+.apre {
+    font-size: 4em;
+}
+
+
+.fs {
+    font-size: 1.8em;
+    color: var(--cor-principal);
+}
+
+.sobre {
+    background-color: var(--cor-principal);
+
+}
+
+.sobre h4 {
+    font-size: 3em;
+    color: white;
+}
+
+.custom-shape-divider-bottom-1682127485 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1682127485 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 96px;
+}
+
+.custom-shape-divider-bottom-1682127485 .shape-fill {
+    fill: #9141D0;
+}
+
+.quem {
+    display: flex;
+    justify-content: center;
+}
+
+.desc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
