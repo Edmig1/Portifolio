@@ -191,4 +191,5 @@ nav a:hover {
 
 #svg-skills div:hover{
     scale: 1.5;
+    transition: 1s;
 }
